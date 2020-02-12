@@ -38,10 +38,6 @@ bool Node::operator==(const Node &n) const {
   }
 }
 
-// DO NOT MODIFY
-//
-// DLL
-//
 class DLL {
 private:
   Node *head_ = nullptr;
