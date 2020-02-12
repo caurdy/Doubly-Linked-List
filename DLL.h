@@ -8,10 +8,7 @@ using std::string;
 using std::vector;
 #include <sstream>
 using std::ostringstream;
-// DO NOT MODIFY
-//
-// Node
-//
+
 struct Node {
   string key{};
   int value{};
