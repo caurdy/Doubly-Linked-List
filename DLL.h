@@ -108,7 +108,6 @@ DLL::DLL(vector<Node> vec) {
     add_back(node.key, node.value);
 }
 
-/* BEGIN MODIFICATION BELOW */
 //Adds new node of (str,num) to back of list, returns this node
 Node DLL::add_back(string str, int num) {
   Node * newnode = new Node(str, num, tail_, nullptr);
